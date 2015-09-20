@@ -1,0 +1,7 @@
+<$MTInclude module="custom-head-common"$>
+    <title><$MTBlogName$>: <$MTArchiveHeader$></title>
+    
+    <link rel="start" href="<$MTBlogURL$>" title="Home" />
+    <MTArchivePrevious><link rel="prev" href="<$MTArchiveLink$>?no_prefetch=1" title="<$MTArchiveTitle encode_html="1"$>" /></MTArchivePrevious>
+    <MTArchiveNext><link rel="next" href="<$MTArchiveLink$>?no_prefetch=1" title="<$MTArchiveTitle encode_html="1"$>" /></MTArchiveNext>
+</head>

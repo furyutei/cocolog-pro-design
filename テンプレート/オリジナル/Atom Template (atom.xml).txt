@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0">
+    <title><$MTBlogName remove_html="1" encode_xml="1"$></title>
+    <link rel="alternate" type="text/html" href="<$MTBlogURL encode_xml="1"$>" />
+    <id>tag:<$MTAtomFeedIDBase$>:weblog-<$MTBlogID$></id>
+    <updated><MTEntries lastn="1"><$MTEntryDate timezone="UTC" format_name="W3CDTF"$></MTEntries></updated>
+<MTBlogIfDescription>
+    <subtitle><$MTBlogDescription remove_html="1" encode_xml="1"$></subtitle>
+</MTBlogIfDescription>
+<MTEntries>
+    <entry>
+        <title><$MTEntryTitle remove_html="1" encode_xml="1"$></title>
+        <link rel="alternate" type="text/html" href="<$MTEntryPermalink encode_xml="1"$>" />
+        <link rel="replies" type="text/html" href="<$MTEntryPermalink encode_xml="1"$>"<MTEntryIfAllowComments> thr:count="<$MTEntryCommentCount$>"<MTEntryIfHasComments><MTComments lastn="1"> thr:updated="<$MTCommentDate format_name="W3CDTF"$>"</MTComments></MTEntryIfHasComments></MTEntryIfAllowComments> />
+        <id>tag:<$MTAtomFeedIDBase$>:post-<$MTEntryID$></id>
+        <published><$MTEntryDate format_name="W3CDTF"$></published>
+        <updated><$MTEntryDateModified timezone="UTC" format_name="W3CDTF"$></updated>
+        <summary><$MTEntryExcerpt remove_html="1" encode_xml="1"$></summary>
+        <author>
+            <name><$MTEntryAuthor encode_xml="1"$></name>
+        </author>
+<MTEntryCategories>
+        <category term="<$MTCategoryLabel encode_xml="1"$>" />
+</MTEntryCategories>
+<MTWeblogOwnerHas field="feeds_full_content">
+<MTWeblogIfFullRSSContent>
+    <$MTEntryAtomContent disable_mp3player_convert="1"$>
+</MTWeblogIfFullRSSContent>
+</MTWeblogOwnerHas>
+<MTEntryEnclosures>
+        <link rel="enclosure" type="<$MTEntryEnclosureMIMEType$>" href="<$MTEntryEnclosureURL encode_xml="1" $>" length="<$MTEntryEnclosureLength$>" />
+</MTEntryEnclosures>
+    </entry>
+</MTEntries>
+</feed>

@@ -1,0 +1,5 @@
+<$MTInclude module="custom-head-common"$>
+    <title><$MTBlogName$>: <$MTTrans phrase="Archives"$></title>
+    
+    <link rel="start" href="<$MTBlogURL$>" title="Home" />
+</head>

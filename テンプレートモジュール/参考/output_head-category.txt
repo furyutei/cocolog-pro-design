@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <meta name="robots" content="noindex,nofollow" />
+    
+    
+    
+    <link rel="stylesheet" href="http://furyu.tea-nifty.com/labo/styles.css" type="text/css" />
+        <link rel="alternate" type="application/atom+xml" title="「実験室」のブログ記事 (Atom)" href="http://furyu.tea-nifty.com/labo/atom.xml" />
+    <link rel="alternate" type="application/rss+xml" title="「実験室」のブログ記事 (RSS 1.0)" href="http://furyu.tea-nifty.com/labo/index.rdf" />
+    <link rel="alternate" type="application/rss+xml" title="「実験室」のブログ記事 (RSS 2.0)" href="http://furyu.tea-nifty.com/labo/rss.xml" />
+    
+    <link rel="alternate" media="handheld" href="http://app.m-cocolog.jp/t/typecast/206127/161784/category/7283175" />
+    <script type="text/javascript" src="/.shared-cocolog/js/flash_check.js"></script>
+    <script type="text/javascript" src="http://furyu.tea-nifty.com/labo/.config.js"></script>
+    <link rel="stylesheet" href="/.shared-cocolog/js/multibox/multibox/multibox.css" type="text/css" media="all" />
+<script type="text/javascript" src="/.shared-cocolog/js/multibox/_common/js/mootools.js"></script>
+<script type="text/javascript" src="/.shared-cocolog/js/multibox/multibox/overlay.js"></script>
+<script type="text/javascript" src="/.shared-cocolog/js/multibox/multibox/multibox.js"></script>
+
+    
+
+
+    <title>実験室: checktest</title>
+    <link rel="start" href="http://furyu.tea-nifty.com/labo/" title="Home" />
+    <meta property="og:title" content="実験室" />
+<meta property="og:type" content="blog" />
+<meta property="og:url" content="http://furyu.tea-nifty.com/labo/" />
+<meta property="og:image" content="http://furyu.tea-nifty.com/.shared-cocolog/nifty_managed/images/web/ogp/default.png" />
+<meta property="og:description" content="" />
+<meta property="og:site_name" content="実験室" />
+
+</head>

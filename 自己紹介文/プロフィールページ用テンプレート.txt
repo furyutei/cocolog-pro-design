@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow" />
+    
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <link rel="alternate" type="application/atom+xml" title="「風柳亭」のブログ記事 (Atom)" href="http://furyu.tea-nifty.com/annex/atom.xml" />
+    <link rel="alternate" type="application/rss+xml" title="「風柳亭」のブログ記事 (RSS 1.0)" href="http://furyu.tea-nifty.com/annex/index.rdf" />
+    <link rel="alternate" type="application/rss+xml" title="「風柳亭」のブログ記事 (RSS 2.0)" href="http://furyu.tea-nifty.com/annex/rss.xml" />
+    
+    <!-- flash_check.js 無効化中（スマートフォンで表示した場合、Twitterのツイートが正常に表示されなくなるため）
+    <script type="text/javascript" src="/.shared-cocolog/js/flash_check.js"></script>
+    -->
+    <script type="text/javascript" src="http://furyu.tea-nifty.com/annex/.config.js"></script>
+    <link rel="stylesheet" href="/.shared-cocolog/js/multibox/multibox/multibox.css" type="text/css" media="all" />
+    <script type="text/javascript" src="/.shared-cocolog/js/multibox/_common/js/mootools.js"></script>
+    <script type="text/javascript" src="/.shared-cocolog/js/multibox/multibox/overlay.js"></script>
+    <script type="text/javascript" src="/.shared-cocolog/js/multibox/multibox/multibox.js"></script>
+    
+    <link rel="stylesheet" href="http://furyu.tea-nifty.com/annex/reset.css" />
+    <link rel="stylesheet" href="http://furyu.tea-nifty.com/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://furyu.tea-nifty.com/annex/styles.css" type="text/css" />
+    
+    <script src="http://furyu.tea-nifty.com/js/jquery-1.11.3.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="http://furyu.tea-nifty.com/js/bootstrap.min.js"></script>
+    
+    <meta property="og:title" content="風柳亭" />
+    <meta property="og:type" content="blog" />
+    <meta property="og:url" content="http://furyu.tea-nifty.com/annex/" />
+    <meta property="og:image" content="http://furyu.tea-nifty.com/.shared-cocolog/nifty_managed/images/web/ogp/default.png" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="風柳亭" />
+    
+
+    <title>風柳亭: 管理人の自己紹介 </title>
+    
+    <link rel="start" href="http://furyu.tea-nifty.com/annex/" title="Home" />
+</head>
+
+<body class="layout-two-column-right">
+    <div id="container" class="container">
+        <div id="container-inner" class="pkg">
+            
+            <div id="banner">
+                <div id="banner-inner" class="pkg row">
+                    <h1 id="banner-header" class="col-xm-12 col-sm-3"><a href="http://furyu.tea-nifty.com/annex/" accesskey="1">風柳亭</a></h1>
+                    <h2 id="banner-description" class="col-xm-12 col-sm-9">管理人の自己紹介</h2>
+                    <div id="banner-inner-bottom"></div>
+                </div>
+            </div>
+
+            <div id="pagebody">
+                <div id="pagebody-inner" class="pkg row">
+                    <div id="alpha" class="col-xs-12 col-md-9">
+                        <div id="alpha-inner" class="pkg">
+                            <!-- archives -->
+<div class="entry">
+    <div class="entry-inner">
+    
+    <h3 class="entry-header">コンタクト</h3>
+    
+    <div class="entry-content">
+        <div class="section">
+            <ul>
+                <li><a href="http://furyu.tea-nifty.com/annex/" target="_blank">風柳亭</a><a href="http://b.hatena.ne.jp/entry/http://furyu.tea-nifty.com/annex/" class="http-bookmark" target="_blank"><img src="http://b.hatena.ne.jp/entry/image/http://furyu.tea-nifty.com/annex/" alt="" class="http-bookmark"></a> （<a href="http://www.cocolog-nifty.com/">ココログ</a>）</li>
+                <li><a href="http://furyu.hatenablog.com/" target="_blank">風柳メモ</a><a href="http://b.hatena.ne.jp/entry/http://furyu.hatenablog.com/" class="http-bookmark" target="_blank"><img src="http://b.hatena.ne.jp/entry/image/http://d.hatena.ne.jp/furyu-tei/" alt="" class="http-bookmark"></a> （<a href="http://hatenablog.com/">はてなブログ</a>）</li>
+                <li><a href="http://twitter.com/furyutei" target="_blank">風柳 (furyutei) on Twitter</a><a href="http://b.hatena.ne.jp/entry/http://twitter.com/furyutei" class="http-bookmark" target="_blank"><img src="http://b.hatena.ne.jp/entry/image/http://twitter.com/furyutei" alt="" class="http-bookmark"></a> （<a href="http://twitter.com/">Twitter</a>）</li>
+                <li>メールアドレス：<img src="http://furyu.tea-nifty.com/image/furyu_mail.png" alt="メールアドレス" title="メールアドレス" style="vertical-align: middle;"></li>
+            </ul>
+
+        </div>
+    </div>
+    
+    <div class="entry-inner-bottom"></div>
+    </div>
+</div>
+
+<div class="entry">
+    <div class="entry-inner">
+    
+    <h3 class="entry-header">自己紹介文</h3>
+    
+    <div class="entry-content">
+        <$MTUserBio$>
+    </div>
+    
+    <div class="entry-inner-bottom"></div>
+    </div>
+</div>
+
+<div class="entry">
+    <div class="entry-inner">
+    
+    <h3 class="entry-header">興味のあること</h3>
+    
+    <div class="entry-content">
+        <$MTUserInterests$>
+    </div>
+    
+    <div class="entry-inner-bottom"></div>
+    </div>
+</div>
+
+                            <div id="alpha-inner-bottom"></div>
+                        </div>
+                    </div>
+                    <div id="beta" class="col-xs-12 col-md-3">
+                        <div id="beta-inner" class="pkg">
+                            <!-- sidebar -->
+
+
+<div id="photo" class="module">
+<a href="http://furyu.tea-nifty.com/about.html">
+  <img src="<$MTUserPhoto$>" width="150" height="150" alt="フォト">
+</a><br>
+<!-- 【メールアドレス画像】 -->
+<!--<img src="http://furyu.tea-nifty.com/image/furyuMail.png" />-->
+<img src="http://furyu.tea-nifty.com/image/furyu_mail.png" alt="メールアドレス" title="メールアドレス">
+</div>
+
+
+                            <div id="beta-inner-bottom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="container-inner-bottom"></div>
+        </div>
+    </div>
+            <script type="text/javascript" src="/.shared-cocolog/js/web/onload.js"></script>
+        
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="/js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+</html>

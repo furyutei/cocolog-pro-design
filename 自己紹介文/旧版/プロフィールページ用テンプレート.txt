@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>風柳の自己紹介 </title>
+<link rel="meta" type="application/rdf+xml" title="FOAF" href="http://furyu.tea-nifty.com/foaf.rdf" />
+
+<link rel="stylesheet" href="http://furyu.tea-nifty.com/annex/styles.css" type="text/css" />
+
+<style type="text/css">
+.sidebar {
+display:block;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="banner">
+<h1>風柳の自己紹介</h1>
+</div><!-- id="banner" -->
+
+<div id="pagebody">
+<div id="main">
+
+<div id="left">
+
+<div class="sidebar">
+
+<div id="photo" class="photo">
+<img src="<$MTUserPhoto$>" alt="My Photo" />
+</div>
+
+</div><!-- class="sidebar" -->
+
+</div><!-- class="left" -->
+
+<div id="center">
+<div class="content">
+
+<div class="contact-list">
+<h2>コンタクト</h2>
+
+        <div class="section">
+            <ul>
+                <li><a href="http://furyu.tea-nifty.com/annex/" target="_blank">風柳亭</a><a href="http://b.hatena.ne.jp/entry/http://furyu.tea-nifty.com/annex/" class="http-bookmark" target="_blank"><img src="http://b.hatena.ne.jp/entry/image/http://furyu.tea-nifty.com/annex/" alt="" class="http-bookmark"></a> （<a href="http://www.cocolog-nifty.com/">ココログ</a>）</li>
+                <li><a href="http://furyu.hatenablog.com/" target="_blank">風柳メモ</a><a href="http://b.hatena.ne.jp/entry/http://furyu.hatenablog.com/" class="http-bookmark" target="_blank"><img src="http://b.hatena.ne.jp/entry/image/http://d.hatena.ne.jp/furyu-tei/" alt="" class="http-bookmark"></a> （<a href="http://hatenablog.com/">はてなブログ</a>）</li>
+                <li><a href="http://twitter.com/furyutei" target="_blank">風柳 (furyutei) on Twitter</a><a href="http://b.hatena.ne.jp/entry/http://twitter.com/furyutei" class="http-bookmark" target="_blank"><img src="http://b.hatena.ne.jp/entry/image/http://twitter.com/furyutei" alt="" class="http-bookmark"></a> （<a href="http://twitter.com/">Twitter</a>）</li>
+                <li>メールアドレス：<img src="http://furyu.tea-nifty.com/image/furyu_mail.png" alt="メールアドレス" title="メールアドレス" style="vertical-align: middle;"></li>
+            </ul>
+
+        </div>
+
+</div><!-- class="contact-list" -->
+
+<div class="bio">
+<h2>自己紹介文</h2>
+<div class="bio-body">
+<$MTUserBio$>
+</div><!-- class="bio-body" -->
+</div><!-- class="bio" -->
+
+<div class="interests">
+<h2>興味のあること</h2>
+<p>
+<$MTUserInterests$>
+</p>
+</div><!-- class="interests" -->
+
+</div><!-- class="content" -->
+
+</div><!-- id="center" -->
+
+<div style="clear: both;">&#160;</div>
+
+</div><!-- id="main" -->
+
+</div><!-- id="pagebody" -->
+</div><!-- id="container" -->
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<$MTInclude module="custom-head-individual"$>
+
+<body class="layout-two-column-right">
+<$MTStatsScript$>
+    <$MTWeblogIncludeModule module="body-header"$>
+    <div id="container" class="container">
+        <div id="container-inner" class="pkg">
+            <$MTWeblogIncludeModule module="container-header"$>
+            <$MTInclude module="custom-banner"$>
+            <div id="pagebody">
+                <div id="pagebody-inner" class="pkg row">
+                    <div id="alpha" class="col-xs-12 col-md-9">
+                        <div id="alpha-inner" class="pkg">
+                            <$MTWeblogIncludeModule module="page"$>
+                            <div id="alpha-inner-bottom"></div>
+                        </div>
+                    </div>
+                    <div id="beta" class="col-xs-12 col-md-3">
+                        <div id="beta-inner" class="pkg">
+                            <!--#include virtual="/<$MTBlogDirname$>/sidebar.inc"-->
+                            <div id="beta-inner-bottom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <$MTWeblogIncludeModule module="container-footer"$>
+            <div id="container-inner-bottom"></div>
+        </div>
+    </div>
+    <$MTInclude module="custom-body-footer"$>
+</body>
+</html>

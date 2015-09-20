@@ -1,0 +1,169 @@
+<!-- sidebar -->
+
+
+<div class="module-qrcode module">
+        <div class="module-inner">
+    <h2 class="module-header"><$MTTrans phrase="Mobile URL"$></h2>
+    <div class="module-top"></div>
+    <div class="module-content module-body">
+        <img alt="<$MTTrans phrase="Keitai address"$>" src="<$MTBlogURL$>qrcode.png" /><br />
+<a href="mailto:?subject=<$MTWeblogTypeCastURLMailToSubject encode_url="1"$>&amp;body=<$MTWeblogTypeCastURL$>%3Fblog_id%3D<$MTBlogID$>%26user_id%3D<$MTUserID$>"><$MTTrans phrase="Send mobile url of this blog's"$></a>
+        </div>
+    <div class="module-bottom"></div>
+    <div class="module-inner-bottom"></div>
+    </div>
+</div>
+<div id="recent-trackback" class="module-recent-trackbacks module">
+<div class="module-inner">
+<h2 class="module-header"><$MTTrans phrase="Recent Trackbacks"$></h2>
+<div class="module-top"></div>
+<div class="module-content module-body">
+<ul class="module-list">
+<MTPings lastn="10" sort_order="descend">
+<li class="module-list-item"><a href="<$MTPingURL$>"><$MTPingTitle$></a> (<$MTPingBlogName$>)</li>
+</MTPings>
+</ul>
+</div>
+<div class="module-bottom"></div>
+<div class="module-inner-bottom"></div>
+</div>
+</div>
+<MTBlogIfArchives>
+<div id="archive-datebased" class="module-archives module">
+<div class="module-inner">
+<h2 class="module-header"><a href="<$MTBlogURL$>archives.html"><$MTTrans phrase="Archives"$></a></h2>
+<div class="module-top"></div>
+<div class="module-content module-body">
+<ul class="module-list">
+<MTArchiveList best_archive_type="1" lastn="10">
+<li class="module-list-item"><a href="<$MTArchiveLink$>"><$MTArchiveTitle$></a></li>
+</MTArchiveList>
+</ul>
+</div>
+<div class="module-bottom"></div>
+<div class="module-inner-bottom"></div>
+</div>
+</div>
+</MTBlogIfArchives>
+<div id="archive-category" class="module-categories module">
+<div class="module-inner">
+<h2 class="module-header"><a href="<$MTBlogURL$>archives.html"><$MTTrans phrase="Categories"$></a></h2>
+<div class="module-top"></div>
+<div class="module-content module-body">
+<ul class="module-list">
+<MTCategories>
+<MTBlogIfArchives archive_type="Category">
+<li class="module-list-item">
+  <a href="<$MTCategoryArchiveLink$>"><$MTCategoryLabel$></a>
+  <MTIfNonEmpty tag="CategoryDescription">
+  <div class="module-list-item-desc"><$MTCategoryDescription encode_html="1"$></div>
+  </MTIfNonEmpty>
+</li>
+<MTElse>
+<li class="module-list-item">
+  <$MTCategoryLabel$>
+  <MTIfNonEmpty tag="CategoryDescription">
+  <div class="module-list-item-desc"><$MTCategoryDescription encode_html="1"$></div>
+  </MTIfNonEmpty>
+</li>
+</MTElse>
+</MTBlogIfArchives>
+</MTCategories>
+</ul>
+</div>
+<div class="module-bottom"></div>
+<div class="module-inner-bottom"></div>
+</div>
+</div>
+<MTBlogIfArchives>
+<div id="recent-entries" class="module-archives module">
+<div class="module-inner">
+<h2 class="module-header"><$MTTrans phrase="Recent Posts"$></h2>
+<div class="module-top"></div>
+<div class="module-content module-body">
+<ul class="module-list">
+<MTEntries lastn="10">
+<li class="module-list-item"><a href="<$MTEntryPermalink$>"><$MTEntryTitle remove_html="1" generate="1"$></a></li>
+</MTEntries>
+</ul>
+</div>
+<div class="module-bottom"></div>
+<div class="module-inner-bottom"></div>
+</div>
+</div>
+</MTBlogIfArchives>
+<div id="recent-comment" class="module-recent-comments module">
+<div class="module-inner">
+<h2 class="module-header"><$MTTrans phrase="Recent Comments"$></h2>
+<div class="module-top"></div>
+<div class="module-content module-body">
+<ul class="module-list">
+<MTComments lastn="10" sort_order="descend">
+<li class="module-list-item"><MTCommentEntry><a href="<$MTEntryPermalink$>#comment-<$MTCommentID$>"><$MTCommentAuthor$></a> <$MTTrans phrase="on"$> <a href="<$MTEntryPermalink$>"><$MTEntryTitle remove_html="1" generate="1"$></a></MTCommentEntry></li>
+</MTComments>
+</ul>
+</div>
+<div class="module-bottom"></div>
+<div class="module-inner-bottom"></div>
+</div>
+</div>
+
+<MTCocologIfJsonPublishEnabled>
+<script type="text/javascript" src="<$MTStaticWebPath$>js/prototype.js"></script>
+<script type="text/javascript">
+<!--
+var cal_blog_url  = '<$MTBlogURL encode_js="1"$>';
+var cal_week_days = '<MTCalendarWeekDays>&lt;th&gt;<$MTCalendarWeekDay encode_js="1"$>&lt;/th&gt;</MTCalendarWeekDays>';
+var latest_month  = '<$MTDate format="%Y%m" encode_js"1"$>';
+-->
+</script>
+<script type="text/javascript" src="<$MTStaticWebPath$>js/calendar.js"></script>
+<!-- test -->
+</MTCocologIfJsonPublishEnabled>
+<div id="calendar" class="module-calendar module">
+<div class="module-content">
+<table summary="<$MTTrans phrase="Monthly calendar with links to each day's posts"$>">
+<caption class="module-header"><$MTDate format_label="year_month"$></caption>
+<tr>
+<MTCalendarWeekDays>
+<th><$MTCalendarWeekDay$></th>
+</MTCalendarWeekDays>
+</tr>
+
+<MTCalendar>
+<MTCalendarWeekHeader><tr></MTCalendarWeekHeader>
+
+<td><MTCalendarIfEntries><MTEntries lastn="1"><a href="<$MTEntryPermalink$>"><$MTCalendarDay$></a></MTEntries></MTCalendarIfEntries><MTCalendarIfNoEntries><$MTCalendarDay$></MTCalendarIfNoEntries><MTCalendarIfBlank>&nbsp;</MTCalendarIfBlank></td><MTCalendarWeekFooter></tr></MTCalendarWeekFooter>
+</MTCalendar>
+
+</table>
+</div>
+</div>
+<div id="profile" class="module-about module">
+<div class="module-content link-note">
+<a href="<$MTUserSiteURL$>about.html"><$MTTrans phrase="About"$></a>
+</div>
+</div>
+<div id="subscribe" class="module-subscribe module">
+<div class="module-content link-note">
+<a onclick="window.open(this.href, 'blogroll', 'width=500,height=600,scrollbars=yes'); return false;" href="<$MTCGIPath$><$MTAppScript$>/lists?__mode=quickpost&amp;is_qp=1&amp;type=1&amp;qp_href=<$MTBlogURL encode_url="1"$>"><$MTTrans phrase="Add me to your TypePad People list"$></a>
+</div>
+</div>
+<div id="syndicate" class="module-syndicate module">
+<div class="module-content link-note">
+<a href="<$MTBlogURL$>index.rdf"><$MTTrans phrase="Syndicate this site (XML)"$></a>
+</div>
+</div>
+<script type="text/javascript">var user_start_date = "";</script>
+<script type="text/javascript" src="http://updates.cocolog-nifty.com/sidebar/nifty/top.js"></script>
+<div style="border-top: 1px dashed; overflow: visible !important; padding-top: 10px; padding-bottom: 10px; display: block !important; position: static !important;" class="free"><a href="http://www.nifty.com/">@nifty</a>が提供する<br/><a href="http://www.cocolog-nifty.com/">無料ブログはココログ</a>！</div>
+<script type="text/javascript" src="http://updates.cocolog-nifty.com/sidebar/nifty/middle.js"></script>
+<div style="overflow: visible !important; text-align: center; display: block !important; position: static !important;" class="cocolog-banner">
+<a title="無料ブログはココログ" href="http://www.cocolog-nifty.com/"><img style="border: 0px none;" alt="無料ブログはココログ" src="http://updates.cocolog-nifty.com/images/nifty/logo_userpage.gif"/></a>
+<script type="text/javascript" src="http://updates.cocolog-nifty.com/sidebar/nifty/bottom.js"></script>
+</div>
+
+
+
+
+

@@ -1,0 +1,8 @@
+<div id="banner">
+    <div id="banner-inner" class="pkg">
+        
+        <h1 id="banner-header"><a href="http://furyu.tea-nifty.com/labo/" accesskey="1">実験室</a></h1>
+        <h2 id="banner-description">風柳の実験室（プライベート）</h2>
+        <div id="banner-inner-bottom"></div>
+    </div>
+</div>

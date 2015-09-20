@@ -1,0 +1,17 @@
+/* base css */
+@import url(/.shared-cocolog/themes/common/base-weblog.css);
+
+/* portal css */
+@import url(/.shared-cocolog/nifty_managed/themes/common/base.css);
+
+
+/* theme css */
+@import url(http://theme.cocolog-nifty.com/themes/rich/apollo-silver/screen.css);
+@import url(/.shared-cocolog/nifty_managed/themes/rich/apollo-silver/screen.css);
+
+
+/* user css */
+
+
+
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf8"?>
+{
+data:[
+<MTEntries all="1">{
+title:"<$MTEntryTitle remove_html="1" encode_js="1"$>"
+,link:"<$MTEntryLink$>"
+,body:"<$MTEntryBody remove_html="1" encode_js="1"$><$MTEntryMore remove_html="1" encode_js="1"$>[<$MTEntryKeywords remove_html="1" encode_js="1"$>]<MTComments>【<$MTCommentAuthor remove_html="1" encode_js="1"$>】<$MTCommentBody remove_html="1" encode_js="1"$></MTComments>"
+},</MTEntries>
+{title:"",link:"",body:""}
+]
+}

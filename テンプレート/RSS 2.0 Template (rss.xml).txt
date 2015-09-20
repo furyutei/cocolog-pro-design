@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ version="2.0">
+<channel>
+<title><$MTBlogName remove_html="1" encode_xml="1"$></title>
+<link><$MTBlogURL$></link>
+<description><$MTBlogDescription remove_html="1" encode_xml="1"$></description>
+<language><$MTBlogLanguage$></language>
+<lastBuildDate><MTEntries lastn="1"><$MTEntryDate format="%a, %d %b %Y %H:%M:%S %z" language="en_US"$></MTEntries></lastBuildDate>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="<$MTBlogURL$>rss.xml" type="application/rss+xml" />
+<docs>http://www.rssboard.org/rss-specification</docs>
+<MTEntries>
+<item>
+<title><$MTEntryTitle remove_html="1" encode_xml="1"$></title>
+<link><$MTEntryPermalink encode_xml="1"$></link>
+<guid isPermaLink="true"><$MTEntryPermalink encode_xml="1"$></guid>
+<description><$MTEntryExcerpt remove_html="1" encode_xml="1"$></description>
+<MTWeblogIfFullRSSContent>
+<MTWeblogOwnerHas field="feeds_full_content">
+<content:encoded><$MTEntryBody encode_xml="1" disable_mp3player_convert="1"$><$MTEntryMore encode_xml="1" disable_mp3player_convert="1"$></content:encoded>
+</MTWeblogOwnerHas>
+</MTWeblogIfFullRSSContent>
+<MTEntryCategories>
+<category><$MTCategoryLabel encode_xml="1"$></category>
+</MTEntryCategories>
+<dc:creator><$MTEntryAuthor encode_xml="1"$></dc:creator>
+<MTIfNonEmpty tag="MTEntryDate" format="%a, %d %b %Y %H:%M:%S %z" language="en_US"><pubDate><$MTEntryDate format="%a, %d %b %Y %H:%M:%S %z" language="en_US"$></pubDate></MTIfNonEmpty>
+<MTEntryEnclosures>
+<enclosure url="<$MTEntryEnclosureURL$>" type="<$MTEntryEnclosureMIMEType$>" length="<$MTEntryEnclosureLength$>" />
+</MTEntryEnclosures>
+</item>
+</MTEntries>
+</channel>
+</rss>

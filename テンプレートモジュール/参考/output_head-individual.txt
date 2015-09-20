@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <meta name="robots" content="noindex,nofollow" />
+    
+    
+    
+    <link rel="stylesheet" href="http://furyu.tea-nifty.com/labo/styles.css" type="text/css" />
+        <link rel="alternate" type="application/atom+xml" title="「実験室」のブログ記事 (Atom)" href="http://furyu.tea-nifty.com/labo/atom.xml" />
+    <link rel="alternate" type="application/rss+xml" title="「実験室」のブログ記事 (RSS 1.0)" href="http://furyu.tea-nifty.com/labo/index.rdf" />
+    <link rel="alternate" type="application/rss+xml" title="「実験室」のブログ記事 (RSS 2.0)" href="http://furyu.tea-nifty.com/labo/rss.xml" />
+    
+    <link rel="alternate" media="handheld" href="http://app.m-cocolog.jp/t/typecast/206127/161784/22478942" />
+    <script type="text/javascript" src="/.shared-cocolog/js/flash_check.js"></script>
+    <script type="text/javascript" src="http://furyu.tea-nifty.com/labo/.config.js"></script>
+    <link rel="stylesheet" href="/.shared-cocolog/js/multibox/multibox/multibox.css" type="text/css" media="all" />
+<script type="text/javascript" src="/.shared-cocolog/js/multibox/_common/js/mootools.js"></script>
+<script type="text/javascript" src="/.shared-cocolog/js/multibox/multibox/overlay.js"></script>
+<script type="text/javascript" src="/.shared-cocolog/js/multibox/multibox/multibox.js"></script>
+
+    
+
+
+    
+
+    <title>【ココログ】任意のスクリプトをブログパーツ化する: 実験室</title>
+    <link rel="start" href="http://furyu.tea-nifty.com/labo/" title="Home" />
+    <link rel="prev" href="http://furyu.tea-nifty.com/labo/2007/10/3gpp_42fd.html?no_prefetch=1" title="3GPP動画" />
+    
+    <!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://furyu.tea-nifty.com/labo/2008/01/post_3883.html"
+    trackback:ping="http://app.cocolog-nifty.com/t/trackback/161784/17604951"
+    dc:title="【ココログ】任意のスクリプトをブログパーツ化する"
+    dc:identifier="http://furyu.tea-nifty.com/labo/2008/01/post_3883.html"
+    dc:description="題名： パーツID： &amp;lt;script type=&amp;quot;text/ja..."
+    dc:creator="風柳"
+    dc:date="2008-01-07T01:09:10+09:00" />
+</rdf:RDF>
+-->
+
+    <meta property="og:title" content="【ココログ】任意のスクリプトをブログパーツ化する - 実験室" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://furyu.tea-nifty.com/labo/2008/01/post_3883.html" />
+
+<meta property="og:image" content="http://furyu.tea-nifty.com/.shared-cocolog/nifty_managed/images/web/ogp/default.png" />
+<meta property="og:description" content="題名： パーツID： script type=text/ja..." />
+<meta property="og:site_name" content="実験室" />
+
+</head>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="<$MTBlogURL$>">
+<title><$MTBlogName remove_html="1" encode_xml="1"$></title>
+<link><$MTBlogURL$></link>
+<description><$MTBlogDescription remove_html="1" encode_xml="1"$></description>
+<dc:language><$MTBlogLanguage$></dc:language>
+<dc:creator></dc:creator>
+<dc:date><MTEntries lastn="1"><$MTEntryDate format_name="W3CDTF"$></MTEntries></dc:date>
+<MTBlogIfCCLicense>
+<cc:license rdf:resource="<$MTBlogCCLicenseURL$>" />
+</MTBlogIfCCLicense>
+
+<items>
+<rdf:Seq><MTEntries>
+<rdf:li rdf:resource="<$MTEntryPermalink encode_xml="1"$>" />
+</MTEntries></rdf:Seq>
+</items>
+
+</channel>
+
+<MTEntries>
+<item rdf:about="<$MTEntryPermalink encode_xml="1"$>">
+<title><$MTEntryTitle remove_html="1" encode_xml="1"$></title>
+<link><$MTEntryPermalink encode_xml="1"$></link>
+<description><$MTEntryExcerpt remove_html="1" encode_xml="1"$></description>
+<MTWeblogIfFullRSSContent>
+<MTWeblogOwnerHas field="feeds_full_content">
+<content:encoded><$MTEntryBody encode_xml="1" disable_mp3player_convert="1"$><$MTEntryMore encode_xml="1" disable_mp3player_convert="1"$></content:encoded>
+</MTWeblogOwnerHas>
+</MTWeblogIfFullRSSContent>
+<MTEntryCategories>
+<dc:subject><$MTCategoryLabel encode_xml="1"$></dc:subject>
+</MTEntryCategories>
+<dc:creator><$MTEntryAuthor encode_xml="1"$></dc:creator>
+<MTIfNonEmpty tag="MTEntryDate" format_name="W3CDTF"><dc:date><$MTEntryDate format_name="W3CDTF"$></dc:date></MTIfNonEmpty>
+</item>
+</MTEntries>
+
+</rdf:RDF>
