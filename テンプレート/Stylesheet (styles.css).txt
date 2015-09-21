@@ -39,6 +39,11 @@ li {
     margin-bottom: 0.5em;
 }
 
+ol li {
+    list-style: decimal;
+    margin-left: 2em;
+}
+
 input {
     margin-bottom: 0.4em;
     display: inline-block;
@@ -257,6 +262,15 @@ div#alpha div#alpha-inner div.entry img {
     */
 }
 
+div#alpha div#alpha-inner div.entry ul li {
+    list-style: square;
+    margin-left: 2em;
+}
+
+div#alpha div#alpha-inner div.entry ul li ul li {
+    list-style: circle;
+}
+
 div#alpha div#alpha-inner div.entry div.entry-footer {
     font-size: 90%;
     font-weight: bolder;
@@ -359,19 +373,19 @@ div#beta div#beta-inner > div.module div.module-content {
     border-collapse:separate;
 }
 
-#calendar .ct_Sat, #calendar .ct_Sat a:link, #calendar .ct_Sat a:visited {  /* 土曜     */
+#calendar .ct_Sat, #calendar .ct_Sat a:link, #calendar .ct_Sat a:visited { /* 土曜 */
     color: #0095d9!important;
 }
-#calendar .ct_Sun, #calendar .ct_Sun a:link, #calendar .ct_Sun a:visited {  /* 日曜     */
+#calendar .ct_Sun, #calendar .ct_Sun a:link, #calendar .ct_Sun a:visited { /* 日曜 */
     color: #d9333f!important;
 }
 #calendar .ct_Holiday { /* 休日(枠) */
     border: dotted 2px #d9333f!important;
 }
-#calendar .ct_Holiday, #calendar .ct_Holiday a, #calendar .ct_Holiday a:link, #calendar .ct_Holiday a:visited { /* 休日(文字)   */
+#calendar .ct_Holiday, #calendar .ct_Holiday a, #calendar .ct_Holiday a:link, #calendar .ct_Holiday a:visited { /* 休日(文字) */
     color: #d9333f!important;
 }
-#calendar .ct_Today {       /* 当日(枠) */
+#calendar .ct_Today { /* 当日(枠) */
     border: solid 2px #82ae46!important;
 }
 #calendar .ct_week td {
@@ -538,7 +552,11 @@ table.rakuen tr.new td.date {
 }
 
 .hatena-asin-detail ul {
-    list-style-type: none;
+    list-style-type: none!important;
+}
+
+.hatena-asin-detail ul li {
+    list-style-type: none!important;
 }
 
 .twitter-detail {
