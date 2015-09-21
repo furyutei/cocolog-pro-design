@@ -17,7 +17,7 @@
 /* user css */
 
 
-/* ¡ ˆê”Ê */
+/* â–  ä¸€èˆ¬ */
 body {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -26,7 +26,7 @@ body {
     background: #fff5ee;
     */
     background: #f8f4e6;
-    font-family: "ƒƒCƒŠƒI", "Meiryo", "‚l‚r ‚oƒSƒVƒbƒN", "Hiragino Kaku Gothic Pro", "ƒqƒ‰ƒMƒmŠpƒS Pro W3", sans-serif;
+    font-family: "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒè§’ã‚´ Pro W3", sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,11 +64,11 @@ cite {
     font-style: italic;
 }
 
-.SmartphoneBtn { /* [ƒXƒ}[ƒgƒtƒHƒ“•\¦‚ÉØ‚è‘Ö‚¦]ƒ{ƒ^ƒ“ */
+.SmartphoneBtn { /* [ã‚¹ãƒãƒ¼ãƒˆãƒ•ã‚©ãƒ³è¡¨ç¤ºã«åˆ‡ã‚Šæ›¿ãˆ]ãƒœã‚¿ãƒ³ */
     display: none;
 }
 
-#whimMemo { /* ƒy[ƒWƒgƒbƒv(H2“à)ƒƒjƒ…[ */
+#whimMemo { /* ãƒšãƒ¼ã‚¸ãƒˆãƒƒãƒ—(H2å†…)ãƒ¡ãƒ‹ãƒ¥ãƒ¼ */
     display: none;
 }
 
@@ -79,7 +79,7 @@ cite {
 }
 
 
-/* ¡ ƒwƒbƒ_^ƒtƒbƒ^ */
+/* â–  ãƒ˜ãƒƒãƒ€ï¼ãƒ•ãƒƒã‚¿ */
 div#banner-inner {
     text-align: left;
     /*
@@ -127,7 +127,7 @@ h2#banner-description a {
 }
 
 
-/* ¡ ƒRƒ“ƒeƒ“ƒc */
+/* â–  ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ */
 div#alpha {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -297,7 +297,7 @@ div#alpha div#alpha-inner div.archive {
 }
 
 
-/* ¡ ƒTƒCƒhƒo[ */
+/* â–  ã‚µã‚¤ãƒ‰ãƒãƒ¼ */
 div#beta {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -349,28 +349,29 @@ div#beta div#beta-inner > div.module div.module-content {
 }
 
 
-/* ¡ ƒAƒvƒŠ‚È‚Ç */
+/* â–  ã‚¢ãƒ—ãƒªãªã© */
 
-/* yƒJƒŒƒ“ƒ_[—pz*/
+/* ã€ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼ç”¨ã€‘*/
 #calendar .ct_Body {
+    margin: 0 auto;
     width: 100%;
     max-width: 300px;
     border-collapse:separate;
 }
 
-#calendar .ct_Sat, #calendar .ct_Sat a:link, #calendar .ct_Sat a:visited {  /* “y—j     */
+#calendar .ct_Sat, #calendar .ct_Sat a:link, #calendar .ct_Sat a:visited {  /* åœŸæ›œ     */
     color: #0095d9!important;
 }
-#calendar .ct_Sun, #calendar .ct_Sun a:link, #calendar .ct_Sun a:visited {  /* “ú—j     */
+#calendar .ct_Sun, #calendar .ct_Sun a:link, #calendar .ct_Sun a:visited {  /* æ—¥æ›œ     */
     color: #d9333f!important;
 }
-#calendar .ct_Holiday { /* ‹x“ú(˜g) */
+#calendar .ct_Holiday { /* ä¼‘æ—¥(æ ) */
     border: dotted 2px #d9333f!important;
 }
-#calendar .ct_Holiday, #calendar .ct_Holiday a, #calendar .ct_Holiday a:link, #calendar .ct_Holiday a:visited { /* ‹x“ú(•¶š)   */
+#calendar .ct_Holiday, #calendar .ct_Holiday a, #calendar .ct_Holiday a:link, #calendar .ct_Holiday a:visited { /* ä¼‘æ—¥(æ–‡å­—)   */
     color: #d9333f!important;
 }
-#calendar .ct_Today {       /* “–“ú(˜g) */
+#calendar .ct_Today {       /* å½“æ—¥(æ ) */
     border: solid 2px #82ae46!important;
 }
 #calendar .ct_week td {
@@ -388,7 +389,7 @@ div.calendar_info {
 }
 
 
-/* yƒRƒƒ“ƒg—“—pz */
+/* ã€ã‚³ãƒ¡ãƒ³ãƒˆæ¬„ç”¨ã€‘ */
 #comment-form label {
     display: block;
 }
@@ -414,7 +415,7 @@ div.calendar_info {
 }
 
 
-/* yƒJƒeƒSƒŠ[ƒNƒ‰ƒEƒh—pz */
+/* ã€ã‚«ãƒ†ã‚´ãƒªãƒ¼ã‚¯ãƒ©ã‚¦ãƒ‰ç”¨ã€‘ */
 .cocoListCloud {
 }
 a.cocoListCloudLevel1 {
@@ -438,7 +439,7 @@ a.cocoListCloudLevel5 {
     line-height:24px;
 }
 
-/* yƒA[ƒJƒCƒu^ƒRƒƒ“ƒgƒcƒŠ[—pz */
+/* ã€ã‚¢ãƒ¼ã‚«ã‚¤ãƒ–ï¼ã‚³ãƒ¡ãƒ³ãƒˆãƒ„ãƒªãƒ¼ç”¨ã€‘ */
 .main-module-list ul ul.tree li { margin:0px; }
 .main-module-list ul ul.tree li.end { margin:0px; }
 
@@ -490,7 +491,7 @@ ul ul.tree li.end {
     font-weight:normal;
 }
 
-/* yŠy‰€ƒe[ƒuƒ‹—pz */
+/* ã€æ¥½åœ’ãƒ†ãƒ¼ãƒ–ãƒ«ç”¨ã€‘ */
 table.rakuen {
     margin: 16px 0 16px 0;
     border: solid 1px #2f4f4f;
@@ -519,7 +520,7 @@ table.rakuen tr.new td.date {
 }
 
 
-/* y‚Í‚Ä‚ÈŠÖ˜A—pz */
+/* ã€ã¯ã¦ãªé–¢é€£ç”¨ã€‘ */
 .hatena-asin-detail {
     margin: 4px 8px;
     padding: 4px 8px 16px 8px;
@@ -585,7 +586,7 @@ table.rakuen tr.new td.date {
 }
 
 
-/* yŒŸõ—pz */
+/* ã€æ¤œç´¢ç”¨ã€‘ */
 ol.search-result {
     margin: 0 20px 10px 20px;
 }
@@ -602,4 +603,4 @@ form.blog_ajax_js_search {
     margin: 10px;
 }
 
-/* ¡ end of file */
+/* â–  end of file */
