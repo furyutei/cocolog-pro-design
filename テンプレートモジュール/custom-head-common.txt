@@ -7,7 +7,7 @@
     <!--[if IE]>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <link rel="alternate" type="application/atom+xml" title="「<$MTBlogName$>」のブログ記事 (Atom)" href="<$MTBlogURL$>atom.xml" />
     <link rel="alternate" type="application/rss+xml" title="「<$MTBlogName$>」のブログ記事 (RSS 1.0)" href="<$MTBlogURL$>index.rdf" />
