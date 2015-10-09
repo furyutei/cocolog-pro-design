@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+<url>
+<loc><$MTBlogURL encode_xml="1"$></loc>
+<priority>1.0</priority>
+</url>
+<MTEntries lastn="9999">
+<url>
+<loc><$MTEntryPermalink encode_xml="1"$></loc>
+<lastmod><$MTEntryDateModified timezone="UTC" format="%Y-%m-%dT%H:%M:%SZ"$></lastmod>
+<priority>0.9</priority>
+</url>
+</MTEntries>
+<MTCategories>
+<url>
+<loc><$MTCategoryArchiveLink encode_xml="1"$></loc>
+<priority>0.8</priority>
+</url>
+</MTCategories>
+<MTBlogIfArchives>
+<MTArchiveList archive_type="Monthly" lastn="240">
+<url>
+<loc><$MTArchiveLink encode_xml="1"$></loc>
+<priority>0.5</priority>
+</url>
+</MTArchiveList>
+</MTBlogIfArchives>
+</urlset>

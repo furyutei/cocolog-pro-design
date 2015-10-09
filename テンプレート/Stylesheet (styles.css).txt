@@ -253,6 +253,7 @@ div#alpha div#alpha-inner div.entry img {
     display: inline-block;
     max-width: 100%;
     height: auto;
+    width: auto\9; /* ie8 */
 
     /* box-shadow */
     /*

@@ -12,8 +12,10 @@
     <link rel="alternate" type="application/atom+xml" title="「<$MTBlogName$>」のブログ記事 (Atom)" href="<$MTBlogURL$>atom.xml" />
     <link rel="alternate" type="application/rss+xml" title="「<$MTBlogName$>」のブログ記事 (RSS 1.0)" href="<$MTBlogURL$>index.rdf" />
     <link rel="alternate" type="application/rss+xml" title="「<$MTBlogName$>」のブログ記事 (RSS 2.0)" href="<$MTBlogURL$>rss.xml" />
-    
+
+    <!-- flash_check.js 無効化中（スマートフォンで表示した場合、Twitterのツイートが正常に表示されなくなるため）
     <script type="text/javascript" src="/.shared-cocolog/js/flash_check.js"></script>
+    -->
     <script type="text/javascript" src="<$MTBlogURL$>.config.js"></script>
     <link rel="stylesheet" href="/.shared-cocolog/js/multibox/multibox/multibox.css" type="text/css" media="all" />
     <script type="text/javascript" src="/.shared-cocolog/js/multibox/_common/js/mootools.js"></script>
@@ -32,6 +34,14 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src="<$MTUserSiteURL$>js/bootstrap.min.js"></script>
+
+    <!-- 【はてなスター】-->
+    <script type="text/javascript" src="http://s.hatena.ne.jp/js/HatenaStar.js"></script>
+    <script type="text/javascript" src="http://furyu.tea-nifty.com/script/cocoPlugHatenaStar.js"></script>
+    <script type="text/javascript">
+    //Hatena.Star.Token = '1c12dec2e742bb585832c85bd9d8f00680eeb476';
+    Hatena.Star.Token = '3a824bca13693c100cbd6f57a8d637d21d515e7f';
+    </script>
     
     <meta property="og:title" content="<$MTBlogName$>" />
     <meta property="og:type" content="blog" />
