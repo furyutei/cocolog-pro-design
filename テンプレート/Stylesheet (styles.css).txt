@@ -299,6 +299,15 @@ div#alpha div#alpha-inner div.entry div.comments div.comment p.comment-footer {
     font-weight: bolder;
 }
 
+div#alpha div#alpha-inner div.entry div.trackbacks div.trackback {
+    margin: 10px 20px;
+    padding: 10px 10px;
+    background: #fbfaf5;
+    border: solid 1px #fff1cf;
+    border-radius: 4px;
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+}
+
 div#alpha div#alpha-inner div.entry div.entry-recent-posts {
     margin: 10px 0 10px 0;
 }
