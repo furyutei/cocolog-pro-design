@@ -1,7 +1,7 @@
 <$MTInclude module="custom-head-common"$>
     <title><$MTBlogName$>: <$MTEntryTitle remove_html="1"$></title>
     
-    <!-- スマートフォンでモバイルサイトにリダイレクトされてしまう→MTWeblogTypeCastMobileLinkを無効化 -->
+    <$MTWeblogTypeCastMobileLink$>
     
     <link rel="start" href="<$MTBlogURL$>" title="Home" />
     <MTEntryPrevious><link rel="prev" href="<$MTEntryPermalink$>?no_prefetch=1" title="<$MTEntryTitle encode_html="1"$>" /></MTEntryPrevious>

@@ -1,7 +1,7 @@
 <$MTInclude module="custom-head-common"$>
     <title><$MTBlogName$></title>
     
-    <!-- スマートフォンでモバイルサイトにリダイレクトされてしまう→MTWeblogTypeCastMobileLinkを無効化 -->
+    <$MTWeblogTypeCastMobileLink$>
     
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="<$MTCGIPath$>rsd/<$MTBlogID$>" />
     <MTUserIfShow field="foaf">

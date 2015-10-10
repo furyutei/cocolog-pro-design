@@ -13,9 +13,11 @@
     <link rel="alternate" type="application/rss+xml" title="「<$MTBlogName$>」のブログ記事 (RSS 1.0)" href="<$MTBlogURL$>index.rdf" />
     <link rel="alternate" type="application/rss+xml" title="「<$MTBlogName$>」のブログ記事 (RSS 2.0)" href="<$MTBlogURL$>rss.xml" />
 
-    <!-- flash_check.js 無効化中（スマートフォンで表示した場合、Twitterのツイートが正常に表示されなくなるため）
+    <!-- flash_check.js 無効化（スマートフォンで表示した場合、Twitterのツイートが正常に表示されなくなるため）
     <script type="text/javascript" src="/.shared-cocolog/js/flash_check.js"></script>
     -->
+    <!-- 代わりに smartphone.js のみを無効化した flash_check.js を使用 -->
+    <script type="text/javascript" src="//furyu-tei.sakura.ne.jp/script/flash_check.js"></script>
     <script type="text/javascript" src="<$MTBlogURL$>.config.js"></script>
     <link rel="stylesheet" href="/.shared-cocolog/js/multibox/multibox/multibox.css" type="text/css" media="all" />
     <script type="text/javascript" src="/.shared-cocolog/js/multibox/_common/js/mootools.js"></script>
