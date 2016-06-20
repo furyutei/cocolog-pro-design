@@ -239,9 +239,19 @@ cocoList.init() ;
 <script type="text/javascript" charset="utf-8" src="http://furyu.tea-nifty.com/script/cocoCatTreeR.js?ver=002"></script>
 
 <!-- 【訪問者】 -->
-<div class="module list">
+<div class="module list" style="display:none;">
 <!--#include virtual="/lists/list_2/module.inc"-->
+<!-- 2016/06/20時点で 436,439 -->
+<!-- @homepage がサービス中止するのに伴い、カウンタも廃止 -->
 </div>
+
+<!-- 【プロフィール】 -->
+<div class="module list">
+  <div class="module-typelist module list">
+    <div class="module-inner">
+      <h2 class="module-header"><a href="<$MTUserSiteURL$>about.html"><$MTTrans phrase="About"$></h2>
+      <div class="module-top"></div>
+      <div class="module-content module-body">
 
 <!-- 【自画像】 -->
 <MTUserIfPhoto>
@@ -256,10 +266,33 @@ cocoList.init() ;
 </MTUserIfPhoto>
 
 <!-- 【プロフィール】 -->
-<div id="profile" class="module-about module">
+<div id="profile" class="module-about module" style="display:none;">
 <div class="module-content link-note">
 <a href="<$MTUserSiteURL$>about.html"><$MTTrans phrase="About"$></a>
 </div>
+</div>
+
+
+      <!-- /.module-content --></div>
+      <div class="module-bottom"></div>
+      <div class="module-inner-bottom"></div>
+    <!-- /.module-inner --></div>
+<!-- /.module-typelist --> </div>
+<!-- /.module.list --></div>
+
+
+<!-- 【携帯URL】 -->
+<div class="module-qrcode module">
+        <div class="module-inner">
+    <h2 class="module-header"><$MTTrans phrase="Mobile URL"$></h2>
+    <div class="module-top"></div>
+    <div class="module-content module-body">
+        <a href="<$MTWeblogTypeCastURL$>?blog_id=<$MTBlogID$>&user_id=<$MTUserID$>"><img alt="<$MTTrans phrase="Keitai address"$>" src="<$MTBlogURL$>qrcode.png" /></a><br />
+<a href="mailto:?subject=<$MTWeblogTypeCastURLMailToSubject encode_url="1"$>&amp;body=<$MTWeblogTypeCastURL$>%3Fblog_id%3D<$MTBlogID$>%26user_id%3D<$MTUserID$>"><$MTTrans phrase="Send mobile url of this blog's"$></a>
+        </div>
+    <div class="module-bottom"></div>
+    <div class="module-inner-bottom"></div>
+    </div>
 </div>
 
 <!-- 【RSSを表示する】 -->
@@ -276,19 +309,6 @@ cocoList.init() ;
 </div>
 </div>
 
-<!-- 【携帯URL】 -->
-<div class="module-qrcode module">
-        <div class="module-inner">
-    <h2 class="module-header"><$MTTrans phrase="Mobile URL"$></h2>
-    <div class="module-top"></div>
-    <div class="module-content module-body">
-        <a href="<$MTWeblogTypeCastURL$>?blog_id=<$MTBlogID$>&user_id=<$MTUserID$>"><img alt="<$MTTrans phrase="Keitai address"$>" src="<$MTBlogURL$>qrcode.png" /></a><br />
-<a href="mailto:?subject=<$MTWeblogTypeCastURLMailToSubject encode_url="1"$>&amp;body=<$MTWeblogTypeCastURL$>%3Fblog_id%3D<$MTBlogID$>%26user_id%3D<$MTUserID$>"><$MTTrans phrase="Send mobile url of this blog's"$></a>
-        </div>
-    <div class="module-bottom"></div>
-    <div class="module-inner-bottom"></div>
-    </div>
-</div>
 
 <!-- 【ココログリンク】 -->
 <div style="overflow: visible !important; text-align: center; display: block !important; position: static !important;margin-top:24px;" class="cocolog-banner">
