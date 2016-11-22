@@ -44,11 +44,4 @@
     //Hatena.Star.Token = '1c12dec2e742bb585832c85bd9d8f00680eeb476';
     Hatena.Star.Token = '3a824bca13693c100cbd6f57a8d637d21d515e7f';
     </script>
-    
-    <meta property="og:title" content="<$MTBlogName$>" />
-    <meta property="og:type" content="blog" />
-    <meta property="og:url" content="<$MTBlogURL$>" />
-    <meta property="og:image" content="<$MTUserSiteURL$>.shared-cocolog/nifty_managed/images/web/ogp/default.png" />
-    <meta property="og:description" content="" />
-    <meta property="og:site_name" content="<$MTBlogName$>" />
-    
+ 

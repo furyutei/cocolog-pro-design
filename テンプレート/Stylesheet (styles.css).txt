@@ -263,6 +263,10 @@ div#alpha div#alpha-inner div.entry img {
     */
 }
 
+div#alpha div#alpha-inner div.entry iframe {
+    max-width: 100%;
+}
+
 div#alpha div#alpha-inner div.entry ul li {
     list-style: square;
     margin-left: 2em;
