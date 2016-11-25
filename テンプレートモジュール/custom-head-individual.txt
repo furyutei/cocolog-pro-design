@@ -1,10 +1,12 @@
-<$MTInclude module="custom-head-common"$>
-   
+<$MTInclude module="custom-head-common-pre"$>
+
     <meta property="og:title" content="<$MTEntryTitle remove_html="1"$>" />
     <meta property="og:type" content="blog" />
     <meta property="og:url" content="<$MTEntryPermalink$>" />
-    <meta property="og:image" content="<$MTUserSiteURL$>image/kaze2_120x120.png" />
     <!-- <meta property="og:image" content="<$MTUserSiteURL$>.shared-cocolog/nifty_managed/images/web/ogp/default.png" /> -->
+    <MTEntryPhoto><meta property="og:image" content="<$MTGalleryPhotoURL$>" /></MTEntryPhoto>
+    <meta property="og:image" content="<$MTUserSiteURL$>image/kaze2_120x120.png" />
+
     <meta property="og:description" content="<$MTEntryExcerpt remove_html="1"$>" />
     <meta property="og:site_name" content="<$MTBlogName$>" />
 
@@ -12,7 +14,7 @@
     <meta name="twitter:site" content="@furyutei" />
     <meta name="twitter:title" content="<$MTEntryTitle remove_html="1"$>" />
     <meta name="twitter:description" content="<$MTEntryExcerpt remove_html="1"$>" />
-
+    <MTEntryPhoto><meta name="twitter:image" content="<$MTGalleryPhotoURL$>" /></MTEntryPhoto>
 
     <title><$MTBlogName$>: <$MTEntryTitle remove_html="1"$></title>
     
